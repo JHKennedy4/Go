@@ -1,0 +1,717 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "tnaBlwkHy5NuzTxBr0LCV0",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "EWR",
+     "city": "EWR",
+     "name": "Newark Liberty International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "JAC",
+     "city": "JAC",
+     "name": "Jackson Hole"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "ORD",
+     "city": "CHI",
+     "name": "Chicago O'Hare"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "ROC",
+     "city": "ROC",
+     "name": "Rochester Monroe County"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "CHI",
+     "name": "Chicago"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "EWR",
+     "name": "Newark"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "JAC",
+     "name": "Jackson"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "ROC",
+     "name": "Rochester"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "73G",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "CR7",
+     "name": "Canadair RJ 700"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "DH3",
+     "name": "De Havilland-Bombardier Dash-8"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "ZP",
+     "name": "US Flight Segment Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XF",
+     "name": "US Passenger Facility Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AY",
+     "name": "US September 11th Security Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "US_1",
+     "name": "US Transportation Tax"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "UA",
+     "name": "United Airlines, Inc."
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD1199.20",
+    "id": "cdqYCO8Hf7CQpTGmKDNTd7001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 447,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 92,
+        "flight": {
+         "carrier": "UA",
+         "number": "4838"
+        },
+        "id": "GH1COgT+mq-FyinT",
+        "cabin": "COACH",
+        "bookingCode": "B",
+        "bookingCodeCount": 2,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L9WhIDliQEXYTqAK",
+          "aircraft": "DH3",
+          "arrivalTime": "2014-12-20T07:17-05:00",
+          "departureTime": "2014-12-20T05:45-05:00",
+          "origin": "ROC",
+          "destination": "EWR",
+          "destinationTerminal": "C",
+          "duration": 92,
+          "operatingDisclosure": "OPERATED BY COMMUTAIR DBA UNITED EXPRESS",
+          "mileage": 245,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 59
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 296,
+        "flight": {
+         "carrier": "UA",
+         "number": "1755"
+        },
+        "id": "GXoBPPuhExCQUQRP",
+        "cabin": "COACH",
+        "bookingCode": "B",
+        "bookingCodeCount": 2,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LYTuQtuTq2ZdhSE6",
+          "aircraft": "73G",
+          "arrivalTime": "2014-12-20T11:12-07:00",
+          "departureTime": "2014-12-20T08:16-05:00",
+          "origin": "EWR",
+          "destination": "JAC",
+          "originTerminal": "C",
+          "duration": 296,
+          "mileage": 1868,
+          "meal": "Food for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 462,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 187,
+        "flight": {
+         "carrier": "UA",
+         "number": "1582"
+        },
+        "id": "GTY9-lTY8g9SbThc",
+        "cabin": "COACH",
+        "bookingCode": "H",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lv+7dpY1cwlM4tuD",
+          "aircraft": "73G",
+          "arrivalTime": "2014-12-24T17:01-06:00",
+          "departureTime": "2014-12-24T12:54-07:00",
+          "origin": "JAC",
+          "destination": "ORD",
+          "destinationTerminal": "1",
+          "duration": 187,
+          "mileage": 1158,
+          "meal": "Food and Beverages for Purchase",
+          "secure": true
+         }
+        ],
+        "connectionDuration": 174
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 101,
+        "flight": {
+         "carrier": "UA",
+         "number": "3630"
+        },
+        "id": "GIPv-lTFuCbaSFIo",
+        "cabin": "COACH",
+        "bookingCode": "H",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LxMRhLZfBB3NmVwe",
+          "aircraft": "CR7",
+          "arrivalTime": "2014-12-24T22:36-05:00",
+          "departureTime": "2014-12-24T19:55-06:00",
+          "origin": "ORD",
+          "destination": "ROC",
+          "originTerminal": "1",
+          "duration": 101,
+          "operatingDisclosure": "OPERATED BY GOJET AIRLINES DBA UNITED EXPRESS",
+          "mileage": 526,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A9k964n4S0jlatHaKfgV+1JCaM3ACEpVOijozjqYUb//",
+        "carrier": "UA",
+        "origin": "ROC",
+        "destination": "JAC",
+        "basisCode": "BAA00AFN"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AwrEO88YAjdzQVdQBqmkX0g7ZXdbMdQPWlzAgOYkjgek",
+        "carrier": "UA",
+        "origin": "JAC",
+        "destination": "ROC",
+        "basisCode": "HCA07AFN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A9k964n4S0jlatHaKfgV+1JCaM3ACEpVOijozjqYUb//",
+        "segmentId": "GXoBPPuhExCQUQRP",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "UPTO50LB 23KG AND62LI 158LCM",
+            "count": 0,
+            "description": [
+             "Up to 50 lb/23 kg",
+             "Up to 62 li/158 lcm"
+            ],
+            "subcode": "0GO"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "MUSICAL INSTRUMENTS",
+            "count": 0,
+            "subcode": "0F2"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ARCHERY EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Archery Equipment"
+            ],
+            "subcode": "0FO"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "BOWLING EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Bowling Equipment"
+            ],
+            "subcode": "0FS"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "FISHING EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Fishing Equipment"
+            ],
+            "subcode": "0D6"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "GOLF EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Golf Equipment"
+            ],
+            "subcode": "0DC"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "HOCKEY EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Hockey Equipment"
+            ],
+            "subcode": "0F0"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "SKATEBOARD",
+            "count": 0,
+            "description": [
+             "Skateboard"
+            ],
+            "subcode": "0IS"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "SKI EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Ski Equipment"
+            ],
+            "subcode": "0DD"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "WATER SKI EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Water Ski Equipment"
+            ],
+            "subcode": "0G2"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AwrEO88YAjdzQVdQBqmkX0g7ZXdbMdQPWlzAgOYkjgek",
+        "segmentId": "GTY9-lTY8g9SbThc",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "UPTO50LB 23KG AND62LI 158LCM",
+            "count": 0,
+            "description": [
+             "Up to 50 lb/23 kg",
+             "Up to 62 li/158 lcm"
+            ],
+            "subcode": "0GO"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "MUSICAL INSTRUMENTS",
+            "count": 0,
+            "subcode": "0F2"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ARCHERY EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Archery Equipment"
+            ],
+            "subcode": "0FO"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "BOWLING EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Bowling Equipment"
+            ],
+            "subcode": "0FS"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "FISHING EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Fishing Equipment"
+            ],
+            "subcode": "0D6"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "GOLF EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Golf Equipment"
+            ],
+            "subcode": "0DC"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "HOCKEY EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Hockey Equipment"
+            ],
+            "subcode": "0F0"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "SKATEBOARD",
+            "count": 0,
+            "description": [
+             "Skateboard"
+            ],
+            "subcode": "0IS"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "SKI EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Ski Equipment"
+            ],
+            "subcode": "0DD"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "WATER SKI EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Water Ski Equipment"
+            ],
+            "subcode": "0G2"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AwrEO88YAjdzQVdQBqmkX0g7ZXdbMdQPWlzAgOYkjgek",
+        "segmentId": "GIPv-lTFuCbaSFIo",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "UPTO50LB 23KG AND62LI 158LCM",
+            "count": 0,
+            "description": [
+             "Up to 50 lb/23 kg",
+             "Up to 62 li/158 lcm"
+            ],
+            "subcode": "0GO"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "MUSICAL INSTRUMENTS",
+            "count": 0,
+            "subcode": "0F2"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ARCHERY EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Archery Equipment"
+            ],
+            "subcode": "0FO"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "BOWLING EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Bowling Equipment"
+            ],
+            "subcode": "0FS"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "FISHING EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Fishing Equipment"
+            ],
+            "subcode": "0D6"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "GOLF EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Golf Equipment"
+            ],
+            "subcode": "0DC"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "HOCKEY EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Hockey Equipment"
+            ],
+            "subcode": "0F0"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "SKATEBOARD",
+            "count": 0,
+            "description": [
+             "Skateboard"
+            ],
+            "subcode": "0IS"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "SKI EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Ski Equipment"
+            ],
+            "subcode": "0DD"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "WATER SKI EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Water Ski Equipment"
+            ],
+            "subcode": "0G2"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A9k964n4S0jlatHaKfgV+1JCaM3ACEpVOijozjqYUb//",
+        "segmentId": "GH1COgT+mq-FyinT",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "bagDescriptor": [
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "UPTO50LB 23KG AND62LI 158LCM",
+            "count": 0,
+            "description": [
+             "Up to 50 lb/23 kg",
+             "Up to 62 li/158 lcm"
+            ],
+            "subcode": "0GO"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "MUSICAL INSTRUMENTS",
+            "count": 0,
+            "subcode": "0F2"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "ARCHERY EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Archery Equipment"
+            ],
+            "subcode": "0FO"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "BOWLING EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Bowling Equipment"
+            ],
+            "subcode": "0FS"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "FISHING EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Fishing Equipment"
+            ],
+            "subcode": "0D6"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "GOLF EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Golf Equipment"
+            ],
+            "subcode": "0DC"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "HOCKEY EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Hockey Equipment"
+            ],
+            "subcode": "0F0"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "SKATEBOARD",
+            "count": 0,
+            "description": [
+             "Skateboard"
+            ],
+            "subcode": "0IS"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "SKI EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Ski Equipment"
+            ],
+            "subcode": "0DD"
+           },
+           {
+            "kind": "qpxexpress#bagDescriptor",
+            "commercialName": "WATER SKI EQUIPMENT",
+            "count": 0,
+            "description": [
+             "Water Ski Equipment"
+            ],
+            "subcode": "0G2"
+           }
+          ],
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD1073.49",
+      "saleFareTotal": "USD1073.49",
+      "saleTaxTotal": "USD125.71",
+      "saleTotal": "USD1199.20",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_1",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD80.51"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD18.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD16.00"
+       }
+      ],
+      "fareCalculation": "ROC UA X/EWR UA JAC Q ROCJAC27.91 690.23BAA00AFN UA X/CHI UA ROC 355.35HCA07AFN USD 1073.49 END ZP ROC EWR JAC ORD XT 80.51US 16.00ZP 11.20AY 18.00XF ROC4.50 EWR4.50 JAC4.50 ORD4.50",
+      "latestTicketingTime": "2014-12-13T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}
